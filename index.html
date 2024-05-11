@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game.com</title>
+    <style>
+        body {
+            background-color: deepskyblue;
+        }
+
+        .head {
+            display: flex;
+            justify-content: center;
+            margin-top: 44px;
+            /* flex-direction: column; */
+        }
+
+        .head h1 {
+            font-size: 72px;
+            font-family: cursive;
+        }
+
+        button {
+            position: absolute;
+            left: 48%;
+            top: 28%;
+            padding: 14px 27px;
+            font-size: 25px;
+            background-color: honeydew;
+            border: 2px solid black;
+            border-radius: 11px;
+            color: brown;
+            cursor: pointer;
+        }
+
+        .q {
+            transition: all 0.4s ease;
+            display: flex;
+            justify-content: center;
+            margin: 12%;
+            position: absolute;
+            left: 34%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <h1>Welcome To Dice.net</h1>
+    </div>
+    <button onclick="roll()">
+        Run Dice
+    </button>
+    <div id="img" class="q"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>
